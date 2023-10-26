@@ -10,7 +10,7 @@ console.log(userWord);
 // la parola palindroma è uguale a quella inserita dall'utente?
 let palindromWord = parolaPalindroma (userWord);
 
-// se ha la sessa identità - stampo che la parola è palindroma
+// se è uguale alla parola dell'utentes - stampo che la parola è palindroma
 if (palindromWord == userWord) {
     console.log("La Parola è palindroma");
 
